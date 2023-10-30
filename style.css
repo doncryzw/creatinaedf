@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ede1d2;
+}
+:root{
+    --primary-color: #806044;
+    --secundary-color: #cbb89d;
+    --terciary-color: #6a6f4c;
+    --quartenary-color: #e7be8b;
+    --quintenary-color: #f2f2f2;
+    --sextenary-color: #412f26;
+    --septenary-color: #222222;
+}
+header {
+    background-color: var(--primary-color);
+    color: var(--quintenary-color);
+    text-align: center;
+    padding: 7px 0;
+}
+
+header h1 {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+nav a {
+    display: inline;
+    margin-right: 12px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+section {
+    background-color: var(--secundary-color);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: var(--septenary-color    );
+    font-size: 24px;
+}
+
+li {
+    color: var(--sextenary-color);
+    font-size: 22px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--terciary-color); /* Marrom */
+    color: var(--quartenary-color);
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #464b29;
+    transition: 0.7s;
+    transform: scale(1.02);
+}
+
+p{
+    color: var(--sextenary-color);
+    font-size: 22px;
+}
